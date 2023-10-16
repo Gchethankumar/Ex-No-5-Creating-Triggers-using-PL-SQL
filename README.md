@@ -24,9 +24,9 @@ create table EMPLOYEE1(empid NUMBER, empname VARCHAR(10), dept VARCHAR(10),salar
 ```
 ### Insert values into employee table:
 ```sql
-insert into EMPLOYEE(empid,empname,dept,salary) values(1,'Chandru','HR',2500000);
-insert into EMPLOYEE(empid,empname,dept,salary) values(2,'Chethan','MD',950000);
-insert into EMPLOYEE(empid,empname,dept,salary) values(3,'Dileep','HR',800000);
+insert into EMPLOYEE1(empid,empname,dept,salary) values(1,'Chandru','HR',2500000);
+insert into EMPLOYEE1(empid,empname,dept,salary) values(2,'Chethan','MD',950000);
+insert into EMPLOYEE1(empid,empname,dept,salary) values(3,'Dileep','HR',800000);
 ```
 ### Create salary_log table
 ```sql
